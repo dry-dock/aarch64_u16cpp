@@ -1,4 +1,4 @@
-FROM drydockaarch64/u16all:master
+FROM drydock/aarch64_u16all:master
 
 ADD . /u16cppall
 
