@@ -24,14 +24,14 @@ sudo apt-get update && apt-get install -yy \
   automake=1:1.15* \
   ccache=3.2.4* \
   graphviz=2.38* \
-  kmod=24-1ubuntu3 \
+  kmod=22-1ubuntu5 \
   mscgen=0.20-5 \
   libcunit1-dev=2.1* \
   libpcap-dev=1.7.4* \
   libssl-dev=1.0*\
   libtool=2.4* \
   linux-headers-`uname -r` \
-  ruby-dev=1:2.5*
+  ruby-dev=1:2.3*
 
 
 CLANG_VERSION=5.0.1
