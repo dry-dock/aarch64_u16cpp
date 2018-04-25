@@ -12,8 +12,8 @@ echo "======================= Installing gcc 7.3 ======================"
 add-apt-repository -y ppa:ubuntu-toolchain-r/test
 apt-get update
 apt-get install -y \
-  gcc-7=7.2* \
-  g++-7=7.2*
+  gcc-7=7.3* \
+  g++-7=7.3*
 update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 50 --slave /usr/bin/g++ g++ /usr/bin/g++-7
 update-alternatives --install /usr/bin/gcov gcov /usr/bin/gcov-7 50
 gcc --version
