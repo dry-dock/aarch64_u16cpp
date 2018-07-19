@@ -34,7 +34,7 @@ sudo apt-get update && apt-get install -yy \
   ruby-dev=1:2.3*
 
 
-CLANG_VERSION=6.0.0
+CLANG_VERSION=6.0.1
 echo "==================== Installing clang $CLANG_VERSION ==================="
 wget -nv http://releases.llvm.org/"$CLANG_VERSION"/clang+llvm-"$CLANG_VERSION"-aarch64-linux-gnu.tar.xz
 tar xf clang+llvm-"$CLANG_VERSION"-aarch64-linux-gnu.tar.xz
