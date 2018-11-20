@@ -1,5 +1,5 @@
 # aarch64_u16cppall
-Docker image with aarch64 ubuntu 16.04 + c++
+Docker image with aarch64 ubuntu 16.04 + C++
 
 Shippable CI image for C++ on aarch64 Ubuntu 16.04 . Available GCC and Clang versions:
 
