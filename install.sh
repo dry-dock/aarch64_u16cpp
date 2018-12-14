@@ -33,7 +33,6 @@ sudo apt-get update && apt-get install -yy \
   linux-headers-`uname -r` \
   ruby-dev=1:2*
 
-
 CLANG_VERSION=7.0.0
 echo "==================== Installing clang $CLANG_VERSION ==================="
 wget -nv http://releases.llvm.org/"$CLANG_VERSION"/clang+llvm-"$CLANG_VERSION"-aarch64-linux-gnu.tar.xz
